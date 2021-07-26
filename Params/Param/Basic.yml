@@ -1,0 +1,19 @@
+---
+Basic:
+  dec: "基础设置"
+  parameters:
+    -
+      method: "post"
+      url: /api/mall/cart/order?goods_id=698&item_id=0&goods_num=1
+      data:
+          "address_id": 121
+          "integral": ""
+          "pay_pwd": ""
+          "order_use_coupon_ids": ""
+          "goods_id": 698
+          "item_id": 0
+          "goods_num": 1
+          "tip_money": "0.17"
+          "user_money": "45"
+          "user_notes": {"13": ""}
+
